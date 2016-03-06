@@ -1,5 +1,5 @@
 # emx-play-media
-play media in emacs buffers using keybindings in external media player like vlc or mplayer
+play media from emacs buffers using keybindings in external media player like vlc or mplayer
 
 this package is not in melpa. you have to download zip folder from repository and place it in your .emacs.d/elpa folder and have to `cd` to that directory `emx-play-media` and have to compile fie using `M-x byte-compile-file RET emx-play-media.el` to compile it yourself. 
 
@@ -67,3 +67,5 @@ free to copy and redistribute, check license file for more information.
                               ###      ##
                              ##  #####   
                             ##
+
+P.S.  ~null has not checked all defun with mplayer but it should work (probably even better than vlc)
