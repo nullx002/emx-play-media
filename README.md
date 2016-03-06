@@ -18,16 +18,20 @@ for video and audio (using youtube-dl, if want to play audio only from youtube v
 
 `<f9> v` - play media without youtube-dl (if it is not installed on your system), directly inside vlc from web, can chagne resolution in .el file before compiling it.
 
-`<f9> V` - place cursor/point on anchor-text, url in buffer and hit `<f9> + Shift v` same as above without youtube-dl
+`<f9> V` - place cursor/point on anchor-text, url in buffer and hit `<f9> + SHIFT v` same as above without youtube-dl
 
 for all media supported by vlc player (should work with mplayer too, just change vlc to mplayer in .el file before byte-compiling)
 
 `<f9 a>` - generic media player (all file types supported by vlc, best resolution is played by default)
 
-`<f9 A>` - place cursosr/point on anchor-text, url in buffer and hit `<f9> + shift a`
+`<f9 A>` - place cursosr/point on anchor-text, url in buffer and hit `<f9> + SHIFT a`
 
 ### keybindings:
 ---
 
 keybindings here explained are default keybindings, if they conflict with the ones you already have you can change them in .el file before byte-compiling it in your elpa directory.
 
+#### copying:
+---
+
+free to copy and redistribute, check license file for more information.
