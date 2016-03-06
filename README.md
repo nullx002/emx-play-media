@@ -9,12 +9,15 @@ this package is not in melpa. you have to download zip folder from repository an
 ---
 
 `M-x play-youtube-video RET URL`
+
 `M-x www-play-youtube-video` - when on url or anchor
 
 `M-x play-vlc-video RET URL`
+
 `M-x www-play-vlc-video` - when on url or anchor
 
 `M-x play-mp3-podcast RET URL`
+
 `M-x www-play-mp3-podcast` - when on url or anchor
 
 **or in detail:**
