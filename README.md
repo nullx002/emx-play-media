@@ -3,10 +3,21 @@ play media in emacs buffers using keybindings in external media player like vlc 
 
 this package is not in melpa. you have to download zip folder from repository and place it in your .emacs.d/elpa folder and have to `cd` to that directory `emx-play-media` and have to compile fie using `M-x byte-compile-file RET emx-play-media.el` to compile it yourself. 
 
-**add `(require 'emx-play-media)` to your `.emacs` or `.emacs.d/init.el` file.
+**add `(require 'emx-play-media)` to your `.emacs` or `.emacs.d/init.el` file.**
 
 ### to use:
 ---
+
+`M-x play-youtube-video RET URL`
+`M-x www-play-youtube-video` - when on url or anchor
+
+`M-x play-vlc-video RET URL`
+`M-x www-play-vlc-video` - when on url or anchor
+
+`M-x play-mp3-podcast RET URL`
+`M-x www-play-mp3-podcast` - when on url or anchor
+
+**or in detail:**
 
 place point/cursor on anchor text or url in buffer (like w3m, twittering mode, etc.) and use keybindings to start playing media in external player like vlc or mplayer.
 
@@ -38,7 +49,7 @@ keybindings here explained are default keybindings, if they conflict with the on
 
 free to copy and redistribute, check license file for more information.
 
-###### ~null on pale blue dot
+##### ~null on pale blue dot
 
                                          ##
                                  #####  ##
@@ -53,4 +64,3 @@ free to copy and redistribute, check license file for more information.
                               ###      ##
                              ##  #####   
                             ##
-
