@@ -3,6 +3,8 @@ play media in emacs buffers using keybindings in external media player like vlc 
 
 this package is not in melpa. you have to download zip folder from repository and place it in your .emacs.d/elpa folder and have to `cd` to that directory `emx-play-media` and have to compile fie using `M-x byte-compile-file RET emx-play-media.el` to compile it yourself. 
 
+**add `(require 'emx-play-media)` to your `.emacs` or `.emacs.d/init.el` file.
+
 ### to use:
 ---
 
@@ -35,3 +37,20 @@ keybindings here explained are default keybindings, if they conflict with the on
 ---
 
 free to copy and redistribute, check license file for more information.
+
+###### ~null on pale blue dot
+
+                                         ##
+                                 #####  ##
+                              ##      ###
+                            ##       ##  ##
+                           ##       ##    ##
+                          ##       ##      ##
+                          ##      ##       ##
+                          ##     ##        ##
+                           ##   ##        ##
+                            ## ##        ##
+                              ###      ##
+                             ##  #####   
+                            ##
+
